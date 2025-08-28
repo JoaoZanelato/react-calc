@@ -1,1 +1,6 @@
-export default function Button(){}
+import { ButtonContainer } from "./styles";
+export default function Button(){
+return(
+    <ButtonContainer>1</ButtonContainer>
+)
+}
