@@ -1,6 +1,11 @@
 import { ButtonContainer } from "./styles";
-export default function Button(){
+
+const Button = ({label, onClick}) => {
 return(
-    <ButtonContainer>1</ButtonContainer>
+    <ButtonContainer onClick={onClick}>
+        {label}
+    </ButtonContainer>
 )
 }
+
+export default Button;
