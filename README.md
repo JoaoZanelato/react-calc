@@ -1,12 +1,43 @@
-# React + Vite
+# Calculadora React para a Formação DIO.me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma calculadora simples desenvolvida como parte do bootcamp de Formação de Desenvolvedor React da [DIO.me](https://www.dio.me/).
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto consiste em uma calculadora funcional criada com React. O objetivo era aplicar os conceitos fundamentais de componentização, estado e eventos do React para construir uma aplicação interativa. A calculadora permite realizar as quatro operações básicas: adição, subtração, multiplicação e divisão.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O projeto foi construído utilizando as seguintes tecnologias:
+
+* **React**
+* **Vite**
+* **Styled-components**
+* **ESLint**
+
+## Como Executar
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/joaozanelato/react-calc.git](https://github.com/joaozanelato/react-calc.git)
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+   
+4.  Abra seu navegador e acesse `http://localhost:5173/` (ou a porta que o Vite indicar).
+
+## Funcionalidades
+
+* Adição, subtração, multiplicação e divisão.
+* Limpeza do visor (`C`).
+* Interface simples e intuitiva.
